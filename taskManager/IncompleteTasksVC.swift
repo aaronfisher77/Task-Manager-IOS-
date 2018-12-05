@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+  
 class IncompleteTasksVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
 
     var incompleteTasks = taskArrays.sharedInstance.IncompleteArray
